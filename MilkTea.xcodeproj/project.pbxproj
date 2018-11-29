@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66C23A7C212A5A60006ED6C6 /* WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C23A7B212A5A60006ED6C6 /* WebView.m */; };
+		66C81FFC21250B710089AD83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C81FFB21250B710089AD83 /* AppDelegate.m */; };
+		66C8200221250B710089AD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C8200021250B710089AD83 /* Main.storyboard */; };
+		66C8200421250B730089AD83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C8200321250B730089AD83 /* Assets.xcassets */; };
+		66C8200721250B730089AD83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C8200521250B730089AD83 /* LaunchScreen.storyboard */; };
+		66C8200A21250B730089AD83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8200921250B730089AD83 /* main.m */; };
+		66C82022212511A60089AD83 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C82021212511A60089AD83 /* RootViewController.m */; };
+		66C8202D21255DB20089AD83 /* UIView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8202C21255DB20089AD83 /* UIView1.m */; };
+		66C8203021255DC10089AD83 /* UIView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8202F21255DC10089AD83 /* UIView2.m */; };
+		66C8203321255DD00089AD83 /* UIView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8203221255DD00089AD83 /* UIView3.m */; };
+		66C8203621255DE00089AD83 /* UIView4.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8203521255DE00089AD83 /* UIView4.m */; };
+		66C8203A21255E250089AD83 /* TopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8203921255E250089AD83 /* TopButton.m */; };
+		66C8203D21255E380089AD83 /* LinkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8203C21255E380089AD83 /* LinkButton.m */; };
+		66C82049212666640089AD83 /* ScrollView+PageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C82048212666640089AD83 /* ScrollView+PageController.m */; };
+		66C8204C212673EB0089AD83 /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8204B212673EB0089AD83 /* SwitchView.m */; };
+		EC895895C74958951C733A7B /* libPods-MilkTea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6FA1142AC17F4EA4BA708E /* libPods-MilkTea.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C6FA1142AC17F4EA4BA708E /* libPods-MilkTea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C23A7A212A5A60006ED6C6 /* WebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebView.h; sourceTree = "<group>"; };
+		66C23A7B212A5A60006ED6C6 /* WebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebView.m; sourceTree = "<group>"; };
+		66C81FF721250B710089AD83 /* MilkTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C81FFA21250B710089AD83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66C81FFB21250B710089AD83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66C8200121250B710089AD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66C8200321250B730089AD83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C8200621250B730089AD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66C8200821250B730089AD83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C8200921250B730089AD83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66C82020212511A60089AD83 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		66C82021212511A60089AD83 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		66C8202B21255DB20089AD83 /* UIView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIView1.h; sourceTree = "<group>"; };
+		66C8202C21255DB20089AD83 /* UIView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView1.m; sourceTree = "<group>"; };
+		66C8202E21255DC10089AD83 /* UIView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIView2.h; sourceTree = "<group>"; };
+		66C8202F21255DC10089AD83 /* UIView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView2.m; sourceTree = "<group>"; };
+		66C8203121255DD00089AD83 /* UIView3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIView3.h; sourceTree = "<group>"; };
+		66C8203221255DD00089AD83 /* UIView3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView3.m; sourceTree = "<group>"; };
+		66C8203421255DE00089AD83 /* UIView4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIView4.h; sourceTree = "<group>"; };
+		66C8203521255DE00089AD83 /* UIView4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView4.m; sourceTree = "<group>"; };
+		66C8203821255E250089AD83 /* TopButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopButton.h; sourceTree = "<group>"; };
+		66C8203921255E250089AD83 /* TopButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopButton.m; sourceTree = "<group>"; };
+		66C8203B21255E380089AD83 /* LinkButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkButton.h; sourceTree = "<group>"; };
+		66C8203C21255E380089AD83 /* LinkButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkButton.m; sourceTree = "<group>"; };
+		66C82047212666640089AD83 /* ScrollView+PageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollView+PageController.h"; sourceTree = "<group>"; };
+		66C82048212666640089AD83 /* ScrollView+PageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ScrollView+PageController.m"; sourceTree = "<group>"; };
+		66C8204A212673EB0089AD83 /* SwitchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
+		66C8204B212673EB0089AD83 /* SwitchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		7B3BFA6859279ED447CCBECB /* Pods-MilkTea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTea.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkTea/Pods-MilkTea.release.xcconfig"; sourceTree = "<group>"; };
+		F6EBBCAB2586F0C4466244AA /* Pods-MilkTea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTea.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkTea/Pods-MilkTea.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C81FF421250B710089AD83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC895895C74958951C733A7B /* libPods-MilkTea.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66C81FEE21250B710089AD83 = {
+			isa = PBXGroup;
+			children = (
+				66C81FF921250B710089AD83 /* MilkTea */,
+				66C81FF821250B710089AD83 /* Products */,
+				D5AEE68E2882DE11E0A3D0F9 /* Pods */,
+				F76A36C95199AD1B4B5A921D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66C81FF821250B710089AD83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C81FF721250B710089AD83 /* MilkTea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C81FF921250B710089AD83 /* MilkTea */ = {
+			isa = PBXGroup;
+			children = (
+				66C81FFA21250B710089AD83 /* AppDelegate.h */,
+				66C81FFB21250B710089AD83 /* AppDelegate.m */,
+				66C8200021250B710089AD83 /* Main.storyboard */,
+				66C82020212511A60089AD83 /* RootViewController.h */,
+				66C82021212511A60089AD83 /* RootViewController.m */,
+				66C23A7A212A5A60006ED6C6 /* WebView.h */,
+				66C23A7B212A5A60006ED6C6 /* WebView.m */,
+				66C8203721255DED0089AD83 /* Views */,
+				66C8204121255E900089AD83 /* buttons */,
+				66C8200321250B730089AD83 /* Assets.xcassets */,
+				66C8200521250B730089AD83 /* LaunchScreen.storyboard */,
+				66C8200821250B730089AD83 /* Info.plist */,
+				66C8200921250B730089AD83 /* main.m */,
+			);
+			path = MilkTea;
+			sourceTree = "<group>";
+		};
+		66C8203721255DED0089AD83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66C8202B21255DB20089AD83 /* UIView1.h */,
+				66C8202C21255DB20089AD83 /* UIView1.m */,
+				66C8202E21255DC10089AD83 /* UIView2.h */,
+				66C8202F21255DC10089AD83 /* UIView2.m */,
+				66C8203121255DD00089AD83 /* UIView3.h */,
+				66C8204A212673EB0089AD83 /* SwitchView.h */,
+				66C8204B212673EB0089AD83 /* SwitchView.m */,
+				66C8203221255DD00089AD83 /* UIView3.m */,
+				66C8203421255DE00089AD83 /* UIView4.h */,
+				66C8203521255DE00089AD83 /* UIView4.m */,
+				66C82047212666640089AD83 /* ScrollView+PageController.h */,
+				66C82048212666640089AD83 /* ScrollView+PageController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66C8204121255E900089AD83 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				66C8203821255E250089AD83 /* TopButton.h */,
+				66C8203921255E250089AD83 /* TopButton.m */,
+				66C8203B21255E380089AD83 /* LinkButton.h */,
+				66C8203C21255E380089AD83 /* LinkButton.m */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		D5AEE68E2882DE11E0A3D0F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBBCAB2586F0C4466244AA /* Pods-MilkTea.debug.xcconfig */,
+				7B3BFA6859279ED447CCBECB /* Pods-MilkTea.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F76A36C95199AD1B4B5A921D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6FA1142AC17F4EA4BA708E /* libPods-MilkTea.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C81FF621250B710089AD83 /* MilkTea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C8200D21250B730089AD83 /* Build configuration list for PBXNativeTarget "MilkTea" */;
+			buildPhases = (
+				77147D274F0B1F0C90EDD76C /* [CP] Check Pods Manifest.lock */,
+				66C81FF321250B710089AD83 /* Sources */,
+				66C81FF421250B710089AD83 /* Frameworks */,
+				66C81FF521250B710089AD83 /* Resources */,
+				E15EDE90E342E709F5991EBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MilkTea;
+			productName = MilkTea;
+			productReference = 66C81FF721250B710089AD83 /* MilkTea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C81FEF21250B710089AD83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Chen Wang";
+				TargetAttributes = {
+					66C81FF621250B710089AD83 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 66C81FF221250B710089AD83 /* Build configuration list for PBXProject "MilkTea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C81FEE21250B710089AD83;
+			productRefGroup = 66C81FF821250B710089AD83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C81FF621250B710089AD83 /* MilkTea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C81FF521250B710089AD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C8200721250B730089AD83 /* LaunchScreen.storyboard in Resources */,
+				66C8200421250B730089AD83 /* Assets.xcassets in Resources */,
+				66C8200221250B710089AD83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77147D274F0B1F0C90EDD76C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilkTea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15EDE90E342E709F5991EBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MilkTea/Pods-MilkTea-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JSBadgeView/JSBadgeView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSBadgeView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkTea/Pods-MilkTea-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C81FF321250B710089AD83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C8200A21250B730089AD83 /* main.m in Sources */,
+				66C8203021255DC10089AD83 /* UIView2.m in Sources */,
+				66C8203621255DE00089AD83 /* UIView4.m in Sources */,
+				66C8204C212673EB0089AD83 /* SwitchView.m in Sources */,
+				66C8203321255DD00089AD83 /* UIView3.m in Sources */,
+				66C81FFC21250B710089AD83 /* AppDelegate.m in Sources */,
+				66C8203A21255E250089AD83 /* TopButton.m in Sources */,
+				66C8202D21255DB20089AD83 /* UIView1.m in Sources */,
+				66C82049212666640089AD83 /* ScrollView+PageController.m in Sources */,
+				66C23A7C212A5A60006ED6C6 /* WebView.m in Sources */,
+				66C82022212511A60089AD83 /* RootViewController.m in Sources */,
+				66C8203D21255E380089AD83 /* LinkButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66C8200021250B710089AD83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C8200121250B710089AD83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66C8200521250B730089AD83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C8200621250B730089AD83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C8200B21250B730089AD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66C8200C21250B730089AD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66C8200E21250B730089AD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EBBCAB2586F0C4466244AA /* Pods-MilkTea.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3434CZ5U2F;
+				INFOPLIST_FILE = MilkTea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brofessor.MilkTea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66C8200F21250B730089AD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3BFA6859279ED447CCBECB /* Pods-MilkTea.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3434CZ5U2F;
+				INFOPLIST_FILE = MilkTea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brofessor.MilkTea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C81FF221250B710089AD83 /* Build configuration list for PBXProject "MilkTea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C8200B21250B730089AD83 /* Debug */,
+				66C8200C21250B730089AD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C8200D21250B730089AD83 /* Build configuration list for PBXNativeTarget "MilkTea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C8200E21250B730089AD83 /* Debug */,
+				66C8200F21250B730089AD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C81FEF21250B710089AD83 /* Project object */;
+}
